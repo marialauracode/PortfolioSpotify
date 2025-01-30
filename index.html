@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css"> 
+    <link rel="stylesheet" href="./styles/vars.css">
+    <link rel="stylesheet" href="./styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
 </head>
@@ -65,20 +67,46 @@
                     <span class="fa fa-globe"></span>
                     <span>Português do Brasil</span>
                 </button>
-
             </div>
-
-
-
-
-
-
         </div>
-
-
-
     </div>
 
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./pasta01/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./pasta01/icons/small-right.png" alt="Seta direita">
+                    </button>
+                </div>
+                <div class="header-search">
+                    <img src="./pasta01/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header-login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <footer class="footer-premium">
+        <div class="footer-premium-content">
+            <div class="footer-premium-text">
+                <p class="footer-title">TESTAR O PREMIUM DE GRAÇA</p>
+                <p class="footer-subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                    anúncios. Não precisa de cartão de crédito.</p>
+            </div>
+
+            <div class="button-footer">
+                <button type="button" class="footer-premium-button">Inscreva-se grátis</button>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
