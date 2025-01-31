@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;
@@ -39,11 +38,6 @@
     border-radius: 50%;
     border: none;
     cursor: pointer;
-  }
-  
-  .header-login {
-    display: flex;
-    align-items: center;
   }
   
   .header-search {
