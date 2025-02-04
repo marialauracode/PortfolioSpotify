@@ -13,11 +13,13 @@ function displayResults(results) {
   const artistImage = document.getElementById("artist-img");
   const artistName = document.getElementById("artist-name");
 
-  results.forEach((element) => {
-    artistImage.src = element.urlImg;
-    artistName.innerText = element.name;
-  });
-  resultArtist.classList.remove("hidden");
+  if (results.length > 0) {
+    artistImage.src = results[0].urlImg;
+    artistName.innerText = results[0].name;
+    resultArtist.classList.remove("hidden");
+  } else {
+    resultArtist.classList.add("hidden");
+  }
 }
 
 function hidePlaylists() {
@@ -25,7 +27,7 @@ function hidePlaylists() {
 }
 
 searchInput.addEventListener("input", function () {
-  const searchTerm = searchInput.value.toLowerCase();
+  const searchTerm = searchInput.value.trim().toLowerCase();
   if (searchTerm === "") {
     resultArtist.classList.add("hidden");
     playlistContainer.classList.remove("hidden");
