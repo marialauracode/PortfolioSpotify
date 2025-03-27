@@ -15,6 +15,6 @@
 
 ### 📦 Funcionalidades
 
-* Layout inspirado na interface do Spotify, apenas visual e sem responsividade;
+* Layout inspirado na interface do Spotify, sendo apenas visual e sem responsividade;
 * Mensagem dinâmica ("Bom dia", "Boa tarde", "Boa noite"), controlada pelo JavaScript com base no horário do usuário;
 * Grid inteligente, que se ajusta automaticamente para uma melhor disposição dos elementos na página.
