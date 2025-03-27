@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/e6db5e84-1ebb-4f62-810b-14f9769f3b3a)
+
+
 ### 📂 Sobre o Projeto
 
 * Página inicial do Spotify recriada como exercício da Imersão Front-End da Alura;
@@ -15,7 +18,3 @@
 * Layout inspirado na interface do Spotify;
 * Mensagem dinâmica ("Bom dia", "Boa tarde", "Boa noite"), controlada pelo JavaScript com base no horário do usuário;
 * Grid inteligente, que se ajusta automaticamente para uma melhor disposição dos elementos na página.
-
-### 🖼 Gravação de tela
-* Clique no link abaixo para visualizar o projeto:
-* https://drive.google.com/file/d/1EEIEjIYFMGV0Z7HcksQj65bzz1mTl-mb/view?usp=sharing
